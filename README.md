@@ -18,6 +18,8 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 
 ### Screenshot
+![mobile-design](https://user-images.githubusercontent.com/79846013/221871738-8db03cc5-4c9a-45bc-b32c-569bc1621431.jpg)
+![desktop-design](https://user-images.githubusercontent.com/79846013/221871840-a6923b00-c879-457c-a68e-b1ff2c92c4df.jpg)
 
 
 ### Links
