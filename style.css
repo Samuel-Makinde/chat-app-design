@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 100%;
+    min-height: 100vh;
+    
+}
+
+.container{
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-size: .8rem;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.side-color{
+    width: 40%;
+    height: 61%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background-size: cover;
+    
+    border-bottom-right-radius: 70%;
+}
+
+.phone-chat{
+    max-width: 20rem;
+    display: inline-block;
+    border: 10px solid hsl(0, 0%, 100%);
+    border-radius: 1.4rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    position: relative;
+    background-color: hsl(270, 20%, 96%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .7);
+}
+
+p{
+    color: hsl(270, 7%, 64%);
+}
+
+h1{
+    color: hsl(271, 36%, 24%);
+}
+
+header img{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 60%;
+    margin-top: 2.4rem;
+    
+}
+header{
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 15px 15px 5px 5px;
+    position: relative;
+}
+
+#angle-left{
+    position: absolute;
+    top: 50%;
+    padding-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.round{
+    width:13rem;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%);
+    border-radius: 0 0 20px 20px;
+}
+
+.profile{
+    display: inline-block;
+}
+
+.profile img{
+    float: left;
+    margin-left: 30px;
+    border: 2px solid white;
+}
+
+.person-details{
+    display: inline-block;
+    padding: .8rem;
+    margin-top: 2rem;
+}
+
+.person-details h4{
+    color: white;
+}
+
+.person-details span{
+    color: hsl(276, 100%, 81%);
+}
+
+#dots{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    cursor: pointer;
+    color: white;
+}
+
+article{
+    clear: left;
+    margin-top: 10px;
+}
+.samuel{
+    margin-left: 5px;
+}
+
+.samuel p{
+    width: 50%;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(276, 100%, 81%);
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.owner{
+    float: right;
+    margin-bottom: 2rem;
+}
+
+.owner img{
+    width: 3rem;
+    float: right;
+    margin-right: .7rem;
+    margin-top: .8rem;
+    border-radius: 5px;
+}
+
+
+.owner p{
+    width: 60%;
+    float: right;
+    display: block;
+    margin-top: .8rem;
+    margin-right: 5px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.second {
+    clear: right;
+}
+
+.second p:nth-child(2), p:nth-child(3){
+    background-color: hsl(264, 100%, 61%);
+    color: white;
+    padding: .7rem;
+    font-size: .6rem;
+} 
+
+
+.price {
+    margin-left: 1.8rem;
+    font-size: .6rem;
+}
+.advert{
+    padding: 4rem 3rem 6rem 3rem;
+}
+
+input{
+    width: 90%;
+    height: 2.2rem;
+    background-color: white;
+    margin: 1rem 0 .8rem 1rem;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
+
+.advert h1{
+    font-size: 2rem;
+    margin-bottom: .7rem;
+    word-spacing: 5px;
+}
+
+.advert p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 1rem;
+}
+
+@media  screen and (min-width: 1000px) {
+    .container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto auto;
+        padding-bottom: 20px;
+    }
+
+    .side-color{
+        width: 30%;
+        height: 71%;
+        border-bottom-left-radius: 15%;
+        border-bottom-right-radius: 75%;
+    }
+
+    .phone-chat{
+        margin-left: 15rem;
+    }
+
+    .advert{
+        margin: 0 8rem 0 8rem;
+    }
+}
