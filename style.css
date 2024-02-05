@@ -15,7 +15,7 @@ main{
     min-height: 100vh;
     position: relative;
     font-family: 'Rubik', sans-serif;
-    font-size: .8rem;
+    font-size: .6rem;
     background-color: hsl(270, 20%, 96%);
 }
 
@@ -28,7 +28,7 @@ main{
     background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     background-size: cover;
     
-    border-bottom-right-radius: 70%;
+    border-bottom-right-radius: 40%;
 }
 
 .phone-chat{
